@@ -15,10 +15,11 @@
 /* Фон главной страницы не доработан - не могу решить проблему - cover не работает */
 
 body {
-    background-image: url(img/planety.png);
-    /* background-size: 1920px 1130px; */
-    background-size: cover; 
-    background-repeat: repeat-x; 
+    background-image: url(img/6.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #menu_toggle {
